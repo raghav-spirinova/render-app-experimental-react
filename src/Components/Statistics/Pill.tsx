@@ -10,8 +10,8 @@ const Pill: FC<PillProp> = ({ name, state }) => {
   return (
     <Box
       sx={{
-        width: "150px",
-        height: "50px",
+        width: "160px",
+        height: "45px",
 
         display: "flex",
         flexDirection: "row",
@@ -22,6 +22,8 @@ const Pill: FC<PillProp> = ({ name, state }) => {
 
         borderBottom: `solid ${state ? "5px #25AAE1" : "2px #0F0F0F"}`,
         borderRadius: "10px",
+
+        fontSize: "14px",
       }}
     >
       {name}

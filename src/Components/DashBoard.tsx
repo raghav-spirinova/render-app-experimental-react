@@ -34,11 +34,12 @@ const DashBoard = () => {
         sx={{
           minHeight: "300px",
           height: "fit-content",
-          border: "3px red solid",
+          //   border: "3px red solid",
           marginTop: "25px",
         }}
       >
         <Statistics />
+        
       </Box>
     </Container>
   );
